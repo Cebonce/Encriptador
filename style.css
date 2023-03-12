@@ -1,0 +1,210 @@
+*{
+    background: #aebbf0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 3%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+   border: none;
+   color: #0A3871;
+   margin-top: 90px;
+   text-transform: lowercase;
+}
+::placeholder{ color: #0A3871}
+.text-area:focus{
+    outline: none;
+ }
+
+ .mensaje{
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 89px;
+    margin-top: 20px;
+    padding-left: 20px; 
+    height: 600px;
+ }
+
+.mensaje:focus{
+    outline: none;
+}
+
+#information{
+    color: #495057;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 18px;
+}
+
+#desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+#encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+#copiar{
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 101px;
+    margin-top: 11px;
+    position: absolute;
+    width: 336px;
+}
+
+#pie-pagina{
+    margin-top: 11px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+        color: white;
+    }
+
+@media screen and (max-width:900px) {
+        *{
+            background: #aebbf0;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+        }
+        .logoAlura{
+            width: auto;
+            margin: 5px;
+        }
+        
+        main{
+            display: block;
+            width: auto;
+            margin: 0;
+        }
+        .text-area {
+            width: 96%;
+            margin-top: 15px;
+            margin-left: 24px;
+        }
+        .mensaje{
+            width: 96%;
+            margin-top: 15px;
+            margin-left: 5px;
+            height: 450px;
+        }
+        #information{
+            font-size: 10px;
+            margin-left: 35px;
+        }
+        .buttons{
+            display: flex;
+        }
+        #encriptar{
+            width: 45%;
+            margin-left: 21px;
+            margin-top: 12px;
+        }
+        #desencriptar{
+            width: 45%;
+            margin-left: 39px;
+            margin-top: 12px;
+        }
+        #copiar{
+            width: 96%;
+            margin-left: 10px;
+            margin-top: 12px;
+        }
+        .pie-pagina{
+            display: block;
+            margin-top: 113px;
+        }
+    }
+
+@media screen and (max-width:480px) {
+    *{
+        background: #aebbf0;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .logoAlura{
+        width: auto;
+        margin: 5px;
+    }
+    
+    main{
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+    .text-area {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .mensaje{
+        width: 94%;
+        margin-top: 15px;
+        margin-left: 0px;
+        height: 450px;
+    }
+    #information{
+        font-size: 10px;
+    }
+    .buttons{
+        display: block;
+    }
+    #desencriptar, #encriptar{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    #copiar{
+        width: 90%;
+        margin-left: 15px;
+        margin-top: -84px;
+    }
+    .pie-pagina{
+        display: block;
+        margin: 15px;
+    }
+}
+
